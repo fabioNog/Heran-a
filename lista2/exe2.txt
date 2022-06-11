@@ -1,0 +1,13 @@
+(a) Aponte a superclasse.
+(b) Podemos dizer que todo objeto Parcelado é também um objeto Pagamento?
+(c) Podemos dizer que todo objeto Pagamento é um objeto AVista?
+
+
+Respostas:
+
+a) a superclasse é a classe Pagamento;
+
+b) A classe Parcelado é herdeira de Pagemento portanto ela também é uma classe pagamento;
+
+c) Não podemos afirmar que uma classe AVista também é uma classe pagamento pois não temos nenhuma relação direta.
+entre as duas.
