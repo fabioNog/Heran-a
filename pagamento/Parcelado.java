@@ -2,10 +2,10 @@ package pck.pagamento;
 
 public class Parcelado extends Pagamento{
 	
-	private int numParcelas;
-	private int jurosParcela;
+	private double numParcelas;
+	private double jurosParcela;
 
-	public Parcelado(double valor,int numParcelas,int jurosParcela) {
+	public Parcelado(double valor,double numParcelas,double jurosParcela) {
 		super(valor);
 		setNumParcelas(numParcelas);
 		if(jurosParcela > 0 && jurosParcela <= 100) {
@@ -17,19 +17,19 @@ public class Parcelado extends Pagamento{
 		// TODO Auto-generated constructor stub
 	}
 
-	public int getNumParcelas() {
+	public double getNumParcelas() {
 		return numParcelas;
 	}
 
-	public void setNumParcelas(int numParcelas) {
+	public void setNumParcelas(double numParcelas) {
 		this.numParcelas = numParcelas;
 	}
 
-	public int getJurosParcela() {
+	public double getJurosParcela() {
 		return jurosParcela;
 	}
 
-	public void setJurosParcela(int jurosParcela) {
+	public void setJurosParcela(double jurosParcela) {
 		this.jurosParcela = jurosParcela;
 	}
 	
