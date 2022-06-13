@@ -1,0 +1,6 @@
+4) Aponte algumas desvantagens que você identificou ao realizar as questões 1 e 2 e explique
+como herança poderia te auxiliar em uma solução alternativa.
+
+
+Resposta: A desvantagem encontrada é a repetição de métodos nas duas classes, para resolver o problema construiremos uma superclasse com atributos e métodos
+ao quais podem ser estendidos nas classes filhas (Herança)
